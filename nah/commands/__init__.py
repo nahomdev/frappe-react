@@ -27,7 +27,7 @@ def add_next_app_starter(name, app):
         cwd=Path("../apps", app),
     )
 
-    subprocess.run(["yarn"], cwd=Path("../apps", app, name))
+    subprocess.run(["yarn"], cwd= str(Path("../apps", app, name)))
  
 
  commands = [add_next_app_starter]
