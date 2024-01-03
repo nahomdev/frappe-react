@@ -21,7 +21,7 @@ def create_frappe_next(name, app):
 
 
 def add_next_app_starter(name, app):
-    from pathlib import pathlib
+    from pathlib import Path
 
     subprocess.run(
         ["npx", "degit", "nahomdev/frappe-nextjs-starter", name],
@@ -30,3 +30,5 @@ def add_next_app_starter(name, app):
 
     subprocess.run(["yarn"], cwd=Path("../apps", app, name))
  
+
+ commands = [add_next_app_starter]
