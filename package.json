@@ -1,0 +1,8 @@
+{
+  "name": "frappe-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nahomdev/frappe-react.git",
+  "author": "nahom <nahomdev2021@gmail.com>",
+  "license": "MIT"
+}
