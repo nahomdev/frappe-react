@@ -3,10 +3,10 @@ import frappe
 import subprocess
 
 
-@click.command('create-next-app')
+@click.command('create-frappe-next')
 @click.option("--name", default="frontend", prompt="Dashboard name")
 @click.option("--app", prompt="App Name")
-def create_next_app(name, app):
+def create_frappe_next(name, app):
     if not app:
         click.echo("Please provide an app with --app")
         return
